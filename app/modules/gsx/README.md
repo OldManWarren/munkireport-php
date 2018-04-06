@@ -47,8 +47,16 @@ Remarks
 Configuration
 ---
 
-Before you use the GSX module, you need to configure the config.php file with your GSX account information.
-See: https://github.com/munkireport/munkireport-php/blob/master/config_default.php#L274-L300
+Before you use the GSX module, you need to configure the config.php file with your GSX account information. See: https://github.com/munkireport/munkireport-php/blob/master/config_default.php#L274-L300
+
+ Make sure that the account being used has Manager credentials in GSX and access to web services and warranty lookup.  To do this have your GSX Admin log in and perform the following steps:
+ 
+ 1.  Click the disclosure triangle next to People.
+ 2.  Select the Users folder.
+ 3.  Select the user you will use for this module from the list.
+ 4.  On the right side of the page, choose "Manager" from the Role pop-up menu.
+ 5.  Select the "Can access Web Services" checkbox.
+ 6.  Select the "Can check Coverage/Warranty" checkbox.
 
 Making the certbundle.pem
 ---
